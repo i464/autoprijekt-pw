@@ -2,7 +2,7 @@ import { test, expect } from "@playwright/test";
 import { locators } from "../pages/locators";
 import MainPage from "../pages/main.page";
 
-test("E2E Szenario for E-Commerce Demo-Shop", async ({ page }) => {
+test("E2E Szenario für E-Commerce Demo-Shop", async ({ page }) => {
 	// 1.Demo Shop unter folgender URL öffnen: https://autoprojekt.simplytest.de/
 	const mainPage = new MainPage(page);
 	await page.goto(locators.mainUrl);
